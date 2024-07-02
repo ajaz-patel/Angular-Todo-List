@@ -9,10 +9,8 @@ import { TaskComponent } from "./tasks/task/task.component";
 
 @Component({
     selector: 'app-root',
-    standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, HeaderComponent, UserComponent, TasksComponent, NgFor, NgIf, TaskComponent]
 })
 export class AppComponent {
   title = 'my-first-angularapp';
